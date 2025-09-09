@@ -397,6 +397,7 @@ div.left table td {
 div.left .table-wrapper {
   overflow-x: auto;
   width: 100%;
+  margin-bottom: 26px;
 }
 div.left .table-wrapper table {
   white-space: nowrap;
