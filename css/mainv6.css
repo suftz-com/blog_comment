@@ -166,7 +166,7 @@ header .wrapper nav ul li {
 }
 header .wrapper nav ul li a {
   display: inline-block;
-  padding: 0 0px;
+  padding: 0 8px;
   height: 52px;
 }
 header .wrapper nav ul li a:hover {
@@ -174,9 +174,6 @@ header .wrapper nav ul li a:hover {
 }
 header .wrapper nav ul li a i {
   margin-right: 5px;
-}
-header .wrapper nav ul li:not(:last-child) {
-  padding-right: 16px;
 }
 header .wrapper nav ul li > .active {
   color: #fff;
@@ -203,14 +200,11 @@ header .wrapper nav ul li > .active {
     display: none;
   }
   header .wrapper nav ul li a {
-    padding: 0px;
+    padding: 0 8px;
     height: 50px;
   }
   header .wrapper nav ul li a i {
     margin-right: 4px;
-  }
-  header .wrapper nav ul li:not(:last-child) {
-    padding-right: 16px;
   }
 }
 @media screen and (max-width: 770px) {
