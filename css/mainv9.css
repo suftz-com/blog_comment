@@ -291,6 +291,12 @@ header .wrapper nav ul li > .active {
   display: none;
 }
 
+div.page.clearfix > div.left > article code {
+  display: inline-block;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
 .page[post] .label {
   margin-top: 16px;
   overflow: hidden;
@@ -410,7 +416,7 @@ div.left pre {
   -webkit-overflow-scrolling: touch;
 }
 div.left pre > code {
-  white-space: pre;
+  white-space: pre !important;
 }
 
 #gitalk-container .gt-header-textarea {
@@ -1033,7 +1039,7 @@ pre > code {
   bottom: 0;
   left: 0;
   text-align: center;
-  background-color: #2b2b3c;
+  background-color: #222;
   box-shadow: 0 -2px 4px 1px rgba(0, 0, 0, 0.5);
   color: #bbb;
 }
@@ -1969,6 +1975,9 @@ pre > code {
   }
   .premonition code {
     background-color: var(--darkreader-background-ffffff, #181a1b);
+  }
+  .dropdown-menu li:hover {
+    background: #35393b;
   }
 }
 
