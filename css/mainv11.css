@@ -433,11 +433,15 @@ div.left pre > code {
 
 .gt-comments .gt-comment {
   border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .gt-comments .gt-comment:not(:last-child) {
   margin-bottom: 10px;
+}
+
+.gt-container .gt-comment-content {
+  padding: 0 0 !important;
 }
 
 .clearfix:after {
@@ -684,6 +688,9 @@ div.left pre > code {
   }
   .page .right-show .content-ul > li:last-of-type {
     margin-bottom: 16px;
+  }
+  .gt-container .gt-comment-content {
+    padding: 0 0 !important;
   }
 }
 /**
